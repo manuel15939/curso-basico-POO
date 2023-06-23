@@ -1,3 +1,4 @@
+// objeto literal
 const manuel = {
     name: 'Manuel',
     age:28,
@@ -10,7 +11,7 @@ const manuel = {
         this.cursosAprobados.push(nuevoCurso);
     },
 }
-
+// instancia de objetos
 function Student (name, age, cursosAprobados){
     this.name = name;
     this.age = age;
@@ -29,6 +30,8 @@ const mariana = new Student(
     27,
     ['Curso de introduccion a la produccion de video juegos', 'Curso de creacion de personajes'],
     );
+
+//sintaxis para crear objetos
 
 class Student2 {
     constructor(name,age,cursosAprobados){
@@ -66,9 +69,11 @@ const juan = new Student2(
         }
     }
 
-    miguel = new Student3({
+const miguel = new Student3({
         email:'miguelito@platzi.com',
         name:'Miguel',
         age: 23
     }
     )
+
+    
